@@ -1,0 +1,74 @@
+body{ 
+    width:100%;  
+}
+
+*{
+    box-sizing:border-box;
+}
+body, header, article ,section , p, section , p.pie, img#cook , img#recipe,#appleimg,h1,h2{
+    
+    display :flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    padding:5px ;
+}
+
+header {
+    width:100%;
+    height:50vh;
+}
+
+#appleimg {
+    
+    width:75%;
+    height:100%;
+    justify-items:center;
+    align-items:center;
+    background-image:url("../images/apple-pie.jpg");
+    background-size:cover;
+}
+
+h1{
+    color:white;
+    font-size: 100px;   
+}
+
+img#cook , img#recipe {
+    width:30%;
+    height:10%;
+    justify-content:center;
+}
+
+article{
+    
+    width:80%;  
+}
+
+p{
+    width:75%;      
+}
+
+p.pie{
+    text-align: justify;
+    width:75%;
+}
+
+section{
+    
+    width:100%;
+    flex-direction:column;      
+}
+
+h1, h2, p {
+    font-family: 'Cormorant Garamond', serif;      
+}
+
+h2{
+    font-size:50px;
+    border-top:2px solid grey;
+    width:80%;
+    text-shadow:2px 3px gainsboro;
+}
+
+
+
